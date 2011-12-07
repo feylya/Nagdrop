@@ -1,0 +1,152 @@
+/**
+ * Contains all the other css styles for non specific stuff
+ * 
+ * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @date 1st Decemeber 20009
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    /*overflow-x:hidden;*/
+	overflow-y: scroll;
+    width: 100%;
+}
+
+#bodyTop {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    /*left: 0;*/
+    width: 100%;
+	z-index: 100;
+}
+
+#main {
+    /*height: 100%;*/
+    /*height: auto;*/
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+#mainBody {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#sideBar {
+    float: left;
+    min-height: 100%;
+    height: auto;
+    width: 180px;
+}
+
+#content {
+    float: left;
+    margin: 20px;;
+    width: 100%;
+}
+
+#topMenu {
+    background-color: #333;
+    border: #fff thin;
+    color: #ffffff;
+    float: left;
+    min-width: 800px;
+    width: 100%;
+    top: auto;
+}
+
+#topHiddenMenu {
+    background-color: #333;
+    color: #ffffff;
+    float: left;
+    min-width: 800px;
+    width: 100%;
+}
+
+#leftButton {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #333;
+    float: right;
+    margin: 0 100px 0 0;
+    width: 60px;
+    z-index: 20;
+}
+
+#leftMenu {
+    background-color: #333;
+    color: #fff;
+    float: left;
+    left: 0px;
+    margin: 10px 0 0 0;
+    position: static;
+    top: 100px;
+    width: 175px;
+    height: 100%;
+    z-index: 20;
+}
+
+.menuContent {
+    padding: 5px;
+    z-index: 20;
+}
+
+#hosts {
+    float: left;
+    min-width: 50%;
+    width: 49%;
+}
+
+#groups {
+    height: 100%;
+    margin: 60px auto 100px auto;
+    width: 900px;
+}
+
+#groups.drop {
+    background: #000;;
+    opacity: 0.4;
+    filter: alpha(opacity = 40);
+    z-index: 1000;
+}
+
+#groups.move {
+    padding-right: 30%;
+}
+
+#groups.bigMargin {
+    margin-top: 150px;
+}
+
+.rounded {
+    background: url(images/rounded.gif) no-repeat left top;
+    float: left;
+    margin: 0 0 0 2px;
+    padding: 4px;
+    width: 200px;
+}
+
+.header {
+    float: left;
+    font-size: 2em;
+}
+
+.caption {
+    float: left;
+    /*height: 25px;*/
+    min-width: 250px;
+    width: 100%;
+}
+
+#topHostSearch {
+    float: left;
+}

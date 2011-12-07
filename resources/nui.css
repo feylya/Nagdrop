@@ -1,0 +1,262 @@
+/**
+ * Main css file for the main part of the site
+ * All hosts, services etc are defined here
+ * 
+ * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @date 1st Decemeber 20009
+ */
+
+/*hosts*/
+.host {
+    float: left;
+    /*height: 50px;*/
+    margin-left: 1%;
+    margin-right: 1%;
+    /*margin-top: 5px;*/
+    width: 880px;
+}
+
+.hosts {
+    float: left;
+}
+
+.hostHolder {
+    float: left;
+    display: none;
+    width: 99%
+}
+
+.droppable {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.warning {
+    background: #CF0 !important;
+}
+
+.up {
+    background: #0F0;
+}
+
+.down {
+    background: #F00
+}
+
+.critical {
+    background: #F00 !important;
+}
+
+.unknown {
+    background: #FF0;
+}
+
+.hostExpandServices {
+    float: right;
+    cursor: pointer;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+    padding: 2px 0 0 2px;
+    /*width: 20px;*/
+}
+
+.hostButtons {
+    float: right
+}
+
+.droppable > .hostname {
+    float: left;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-left: 2px;
+    width: 30%;
+}
+
+.droppable > .hostname > .images {
+    float: right;
+    margin-top: -2px;
+    width: auto;
+}
+
+.droppable > .hostStatus {
+    float: left;
+    padding-left: 15px;
+    width: 500px;
+}
+
+.hostCondition > .hostStatusText {
+    float: left;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.hostCondition > .hostStatusInformation {
+    float: left;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+.hostTime > .hostStatusPeriod {
+    float: left;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.hostTime > .hostStatusCheckTime {
+    float: left;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+/* .services contains all .service for a single host*/
+.services {
+    background: #E6E6E6;
+    /*display: none;*/
+    float: left;
+    /*margin-left: 4px;
+     padding: 3px;*/
+    /*min-width: 500px;*/
+    width: 100%;
+}
+
+/*nothing but a container*/
+.service {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 880px;
+}
+
+.serviceHolder {
+    float: left;
+    display: none;
+}
+
+.droppable > .serviceName {
+    float: left;
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-left: 2px;
+    width: 30%;
+}
+
+.service > .serviceStatusText {
+    display: inline;
+    padding-left: 1px;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.service > .serviceCheckTime {
+    display: inline;
+    padding-left: 1px;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.service > .servicePeriod {
+    display: inline;
+    padding-left: 1px;
+    text-transform: uppercase;
+    width: 50px;
+}
+
+.service > .serviceCheck {
+    display: inline;
+    padding-left: 1px;
+    text-transform: uppercase;
+    width: 25px;
+}
+
+.service > .serviceInformation {
+    display: inline;
+    padding-left: 1px;
+    text-transform: uppercase;
+    width: 260px;
+}
+
+.odd {
+    background-color: #c0c0c0;
+}
+
+.hostgroup {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 880px;
+}
+
+.hostgroupHolder {
+    float: left;
+    display: none;
+}
+
+/*Configuration Popup Menu*/
+.outerHolder {
+    float: left;
+    position: absolute;
+    right: 0px;
+    top: 55px;
+}
+
+.holder {
+    background-color: #000;
+    color: #ffffff;
+    display: none;
+    float: left;
+    width: 420px;
+    margin-left: 2px;
+    opacity: 0.7;
+    padding: 3px;
+    /*border: thick solid #FFF;*/
+    min-height: 400px;
+    height: auto;
+    max-height: 100%;
+    font-size: 12px;
+    z-index: 1000021;
+}
+
+.holder > .center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.holder > .header {
+    font-size: 16px;
+}
+
+.holder H2 {
+    margin: 2px;
+}
+
+.holder .close {
+    color: #fff;
+    text-align: right;
+}
+
+.holder a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.holder > .contents {
+    float: left;
+    min-height: 325px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 2px;
+    width: 100%;
+    z-index: 1
+}
+
+.contentMessage {
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+    float: left;
+    width: 879px;
+}

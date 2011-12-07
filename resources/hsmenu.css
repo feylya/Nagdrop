@@ -1,0 +1,137 @@
+/**
+ * CSS file for the top of the page
+ * Menu stuff and alert bar are defined here
+  * 
+ * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @date 1st Decemeber 20009
+ */
+/*Top Menu*/
+#topMenu {
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#topMenuImage {
+    float: left;
+}
+
+#topMenuMiddle {
+    width: 350px;
+    padding: 0;
+    margin-top: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#topMenuMiddleContent {
+}
+
+ul.topMenu li {
+    display: inline;
+    font-size: 1.2em;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding: 0.2em 1em;
+    text-transform: uppercase;
+}
+
+ul.topMenu li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#topMenuLowerBar {
+    background-color: #fff;
+    float: left;
+    height: 16px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#topMenuLowerText {
+    color: #000;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+#topMenuLowerRight {
+    background: #000;
+    color: #fff;
+    float: right;
+    height: 16px;
+    /*padding-right: 3px;
+     padding-left: 3px;*/
+    text-transform: uppercase;
+    width: auto;
+}
+
+/*Drag/Drop Menu*/
+#hs_menu_background {
+    background: #737373;
+    color: #fff;
+    float: left;
+    height: auto;
+    min-height: 90px;
+    width: 100%
+}
+
+#hs_menu_background.render {
+    position: absolute;
+    left: -10000px;
+}
+
+.draggable {
+    height: 60px;
+    width: 100px;
+    margin: 2px 2px 2px 0;
+    cursor: move;
+}
+
+.hostDraggable {
+    float: left;
+    margin: 2px 2px 2px 0;
+    width: 126px;
+}
+
+.serviceDraggable {
+    float: left;
+    margin: 2px 2px 2px 0;
+    width: 126px;
+}
+
+.hostgroupsDraggable {
+    float: left;
+    margin: 2px 2px 2px 0;
+    width: 126px;
+}
+
+.servicegroupsDraggable {
+    float: left;
+    margin: 2px 2px 2px 0;
+    width: 150px;
+}
+
+.carousel {
+    position: relative;
+    visibility: hidden;
+    left: -5000px;
+}
+
+.middleCarouselButtons {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Dialogs*/
+fieldset {
+    padding: 0;
+    border: 0;
+    margin-top: 5px;
+}
