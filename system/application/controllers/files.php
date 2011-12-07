@@ -5,7 +5,7 @@
  * Missing directories will be generated
  * Restart Nagios after a check
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 30/12/2009
  */
 

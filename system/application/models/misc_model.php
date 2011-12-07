@@ -3,7 +3,7 @@
  * Misc model
  * Any database functions that don't belong elsewhere go here
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Misc_model extends Model {

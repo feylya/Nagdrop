@@ -4,7 +4,7 @@
  * Service groups aren't being used yet so this isn't complete or tested
  * This is the file that talks to our database and pulls back Servicegroup information
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Servicegroup_model extends Model

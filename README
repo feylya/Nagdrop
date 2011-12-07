@@ -1,3 +1,7 @@
 A project for configuring Nagios with a nice front end.
 
 It was the final project for my college project. Figured it should be shared.
+
+Written in CodeIgniter 1.7 with jQuery, it's hugely out of date and is very badly written.
+
+I've put it here in hope that someone might fork it and turn it into something useful.

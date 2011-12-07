@@ -6,7 +6,7 @@
  * It routes the browser to the individual controllers as required
  * It sets up the main screens - Hosts, Services, Hostgroups, etc.
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 30/12/2009
  */
 

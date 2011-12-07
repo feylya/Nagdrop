@@ -3,7 +3,7 @@
  * Service template controller
  * Gives back data for all calls about service templates
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Tservice extends Controller{

@@ -6,7 +6,7 @@
  * the HS Menu can be refreshed when a new Host/Service/megadome
  * is added to it)
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 

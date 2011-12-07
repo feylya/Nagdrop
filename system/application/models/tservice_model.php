@@ -3,7 +3,7 @@
  * Service Template model
  * This is the file that talks to our database and pulls back service template information
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Tservice_model extends Model

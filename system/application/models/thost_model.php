@@ -3,7 +3,7 @@
  * Host Template model
  * This is the file that talks to our database and pulls back host template information
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Thost_model extends Model

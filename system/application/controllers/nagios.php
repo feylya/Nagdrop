@@ -5,7 +5,7 @@
  * Controller for all nagios interactions
  * This has actually been shipped out to files.php
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 30 December 2009
  */
 class Nagios extends Controller

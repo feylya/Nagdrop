@@ -4,7 +4,7 @@
  *
  * Controller for all popups (edit dialogs that are displayed
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 30 December 2009
  */
 class popup extends Controller {

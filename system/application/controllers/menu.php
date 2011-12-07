@@ -3,7 +3,7 @@
  * Generates the content for the side menu for adding objects
  * Also handles the AJAX pagination requests
  *
- * @author Paul O'Connor paul.oconnor11@student.dit.ie
+ * @author Paul O'Connor 
  * @date 31 December 2009
  */
 class Menu extends Controller
